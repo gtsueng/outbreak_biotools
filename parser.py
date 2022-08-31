@@ -151,7 +151,7 @@ class cleandoc:
                 outputlist.append(outparameters)
                 ## Note, additional content available from bio.tools in this section includes 'cmd', and 'notes'
             if len(operationlist)>0:
-                cleanjson['featuresList'] = operationlist
+                cleanjson['featureList'] = operationlist
             if len(inputlist)>0:
                 cleanjson['input'] = inputlist
             if len(outputlist)>0:
